@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header ul li {
+  margin-right: 2em;
+  cursor: pointer;
+}
+.header h2 {
+  margin-left: 2em;
+}
