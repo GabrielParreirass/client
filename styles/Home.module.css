@@ -1,1 +1,19 @@
+.cardItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15vw;
+  margin: auto;
+  border: 1px solid rgba(255, 255, 255, 0.144);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.144);
+}
 
+.container {
+    padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px;
+}
